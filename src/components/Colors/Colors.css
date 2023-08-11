@@ -1,0 +1,27 @@
+ 
+ .colors-container{
+    width: 100%;
+    margin-top: 40rem;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px;
+    position: relative;
+} 
+.background-container{
+    position: relative;
+}
+.background-image{
+    position:absolute;
+}
+.color-image{
+    width: 25%;
+}
+@media (max-width : 768px){
+   .background-image{
+        width: 100%
+    }
+    .colors-container{
+        margin-top: 11rem;
+    }
+     
+}

@@ -1,0 +1,38 @@
+.title{
+    flex-direction: column;
+}
+.search-Bar{ 
+    height: 200px;
+}
+ .search-Bar .inputext{
+   margin-left: 100px;
+    border-radius: 10px;
+    height: 50%;
+    width: 30%;
+   
+}
+
+.button2{
+    opacity: 1!important;
+    cursor: pointer;
+    height: 50%;
+    width: 15%;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+   
+}
+@media (max-width :768px){
+    .search-Bar{
+        align-items: center;
+    }
+    .button2{
+        width: 50%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .search-Bar .inputext{
+        margin-left: 0;
+        width: 100%;
+    }
+}

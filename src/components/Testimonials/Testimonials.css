@@ -1,0 +1,70 @@
+.Test-wrapper{
+    background-color: rgb(251,250,251);
+}
+.card-container{
+    justify-content: space-between;
+    width:100%;
+}
+.Test-container{
+    overflow: hidden;
+    position: relative;
+}
+.Test-card{
+   width: 20rem;
+   justify-content: space-between;
+    box-shadow: var(--shadow);
+    border-radius:15px
+}
+.Test-card:hover{
+    scale:1.026;
+    cursor: pointer;
+    background: linear-gradient(
+        180deg,
+        rgba(255,255,255,0)0%,
+        rgb(66,68,75)217.91%
+    );
+    box-shadow: 0px 72px 49px -51px rgba(136,160,255,0.21 );
+}
+.yellowStar{
+    color: rgb(251,204,11);
+}
+.ceo-img-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+.ceo-img-circle {
+    border-radius: 50%; /* Set border-radius to 50% to make the image circular */
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    object-fit: cover; /* To ensure the image maintains aspect ratio */
+  }
+.r-buttons{
+    /* position: absolute; */
+    gap:1rem;
+    top : -4rem;
+    right: 0;
+}
+.r-buttons button{
+    font-size: 1.6rem;
+    padding: 0.2rem 0.8rem ;
+    color: white;
+    border: none;
+    background-color:rgb(66,68,75);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.r-buttons>:nth-child(1){
+    background-color: #EEEEFF;
+    color: rgb(66,68,75);
+}
+.r-buttons>:nth-child(2){
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.25);
+} 
+.swiper-horizontal{
+    overflow: visible;
+}
+@media (max-width : 768px){
+    
+}

@@ -1,0 +1,12 @@
+/* leftSide */
+.Acc-left{
+    flex:1;
+}
+.Acc-left>:nth-child(1){
+    font-size: 3rem;
+  
+    color: rgb(66,68,75);
+}
+@media (max-width : 768px){
+    .Acc-left{    padding-left: 2rem;}
+}
