@@ -1,0 +1,24 @@
+.LogIn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the section takes up at least the full viewport height */
+  }
+  
+  .LogIn-container {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border : solid ;
+    border-radius: 8%;
+    /* Your existing styling */
+  }
+  
+  
+  @media (max-width :768px){
+    .LogIn-container{
+      width: 80%;
+    }
+  }

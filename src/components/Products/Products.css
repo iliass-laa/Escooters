@@ -1,0 +1,135 @@
+.Product-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+/* leftSide */
+.left-Product{
+    flex: 1;
+    flex-wrap: nowrap;
+}
+.left-Product .nav{
+
+ background-color: white;
+ color: rgba(66,68,75);
+}
+.left-Product .image_P-container{
+    height: 45rem;
+    width: 45rem;
+    /* Automatically adjust the height based on the image aspect ratio */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.left-Product .image_P{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
+/* rightSide */
+
+.line{
+    margin-top: 10px;
+    color: dimgray;
+    border : 2px solid  dimgray;
+}
+.T{
+    margin-bottom: 20%;
+}
+.right-Product{
+    flex: 1;
+ justify-content: space-between;
+}
+.t{
+    font-size: 20px;
+}
+.price{
+    font-size: 30px;
+    color: rgb(65, 159, 65);
+}
+.price2{
+    color: red;
+    text-decoration: line-through;
+}
+.colors-name .l-colors{
+    border : solid 2px black;
+    font-size: 15px;
+    border-radius: 10%;
+    margin: 10px;
+    
+
+}
+.right-container{
+    display: block;
+    justify-content: space-between;
+}
+.Quantity{
+   
+    justify-content: space-around;
+}
+.Quantity .BuyNow{
+    width: 40%;
+    margin-left: 20px;
+}
+.Quantity .P{
+    
+   border-radius: 100%;
+    justify-content: center;
+    justify-items: center;
+
+}
+.Quantity .P>span{
+    font-size: 12px;
+}
+.Quantity .count{
+    margin: 15px;
+    font-size: 20px;
+
+}
+.l-colors {
+    font-size: 10px;
+}
+.colors-name .B{
+  background-color: black;
+  color: white;
+}
+.colors-name .R{
+    background-color: rgb(186, 69, 71);
+    color: white;
+}
+.colors-name .W{
+    background-color: white;
+    color: rgba(66,68,75);
+}
+.colors-name .Bl{
+    background-color: rgb(93,197,214) ;
+    color: white;
+}
+.colors-name .G{
+    background-color: rgb(46, 179, 46);
+    color: white;
+}
+@media (max-width :768px){
+    .Product-container{
+        row-gap: 0;
+    }
+    /* left-side */
+    .left-Product{
+        width: 100%;
+        height:100%;
+        padding: 0;
+    }
+    .left-Product .nav{
+        padding: 0;
+    }
+    .left-Product .image_P-container{
+        height:30rem;
+    }
+    .right-Product .T{
+        margin-bottom: 0;
+    }
+}

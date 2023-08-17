@@ -36,6 +36,7 @@
     height: 100%;
     justify-content: space-around;
     margin-bottom: 50px;   
+    color: rgb(66,68,75);
 }
 .Info .cel-info{
     flex-direction:column;

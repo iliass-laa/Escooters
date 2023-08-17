@@ -1,27 +1,27 @@
 [
     {
         "number":"105",
-        "unit":"lbs",
+        "unit":"  lbs",
         "title":"Net Weight"
     },
     {
         "number":"26",
-        "unit":"mph",
+        "unit":"  mph",
         "title":"Top Speed"   
     },
    {
         "number":"38",
-        "unit":"miles",
+        "unit":"  miles",
         "title":"Max Range"
    },
     {
-        "number":"22%",
-        "unit":"slope",
+        "number":"22",
+        "unit":"% slope",
         "title":"Hill Climbing"
    },
    {
-         "number":"2X",
-        "unit":"",
+         "number":"2",
+        "unit":"  X",
         "title":"Hydralic Dis Bakes"
     }
 ]

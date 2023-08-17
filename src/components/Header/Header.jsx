@@ -20,19 +20,23 @@ const Header = () => {
     
         <div className="flexCenter paddings  h-container">
               <div className="flexColStart left-head">
-              <img src={meroLogo} alt="l" className='logo'/>
+              <a href="/">
+              <img  src={meroLogo} alt="l" className='logo'/>
+              </a>
+             
             </div>
             <OutsideClickHandler
             onOutsideClick={()=>{setMenueOpened(false)}}>
            <div className="flexCenter menu" style={getMenuStyles(menuOpened)}>
               <div className="flexCenter middle-header">
-                <a href="SOMO">Products</a>
-                <a href="S">Gallery</a>
-                <a href="So">Contact</a>
+                <a href="/Products">Products</a>
+                <a href="Gallery">Gallery</a>
+                <a href="Contact">Contact</a>
               </div>
               <div className="flexCenter right-header">
-                  <a href=" ">LOG IN</a>
+                  <a href="/SignUp">SIGN UP</a>
                   
+                  <a href="/LogIn">
                   <motion.button
                     initial={{ opacity: 1}}
                     whileHover={{
@@ -47,8 +51,10 @@ const Header = () => {
                     }}
                     className='button h-button'
                     >
-                    SIGN UP
+                     LOG IN
                     </motion.button>
+                  </a>
+                  
                       
                   
               </div>

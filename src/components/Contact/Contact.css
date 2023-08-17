@@ -1,0 +1,30 @@
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    width: 100%;
+    justify-content: space-around;
+    justify-content:center;
+    margin-bottom: 20px;
+}
+.inputs-container .input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 40%;
+    height:15%;
+}
+.inputs-container .inp{
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+}
+.tx-container .tx{
+    width: 100%;
+}
+
+.Send{
+    margin-top: 2%;
+    align-items: center;
+}

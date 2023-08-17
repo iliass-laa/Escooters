@@ -1,6 +1,6 @@
 import React from 'react'
 import './Explore.css'
-import scooterImage from '../assets/scooter1.png'
+import scooterImage from '../assets/Explore.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightLong } from '@fortawesome/free-solid-svg-icons';
 import {faCirclePlay } from '@fortawesome/free-solid-svg-icons';
@@ -18,7 +18,7 @@ const Explore = () => {
                         duration:2,
                         type:"spring"
                     }}
-                    className='T'
+                    className='Ti'
                     >
         <div className=" flexCenter Exp-container">
             {/* Left Side */}
@@ -44,7 +44,9 @@ const Explore = () => {
                 
                 </div>
                 </div>
+                {/* Right Side */}
                 <div className="flexCenter Ex-right">
+                  <div className="gray-background"/>
                     <div className="image-container">
                     <img src={scooterImage} alt="atay" />
 

@@ -7,6 +7,9 @@
   
     color: rgb(66,68,75);
 }
+.Acc-left .info{
+    color: rgb(66,68,75);
+}
 @media (max-width : 768px){
     .Acc-left{    padding-left: 2rem;}
 }
