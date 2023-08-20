@@ -11,19 +11,20 @@ import Contacts from './Pages/Contact';
 import LoginIn from './Pages/LogIn/LoginIn';
 import SignUpp from './Pages/SignIn';
 import Products from './Pages/Products';
+import AboutUS from './Pages/AboutUs';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
-      <Header/>
+    <Header/>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/Contact' element={<Contacts/>}/>
         <Route path='/LogIn' element={<LoginIn/>}/>
         <Route path='/SignUp' element={<SignUpp/>}/>
         <Route path='/Products' element={<Products/>}/>
-       
+        <Route path='/AboutUs' element={<AboutUS/>}/>
       </Routes>
       <Footer/>
     </Router>

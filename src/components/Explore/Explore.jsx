@@ -33,9 +33,26 @@ const Explore = () => {
                    <p >Simple and sleek design with users <br/>in mind.</p>
                 </div>
                 <div className="Ex-footer">
-                  <button className='flexColStart button button1'>
-                  <FontAwesomeIcon className='f-icon' icon={faArrowRightLong} />
-                  </button>
+                       <a href="/Products">
+                 <motion.button
+                    initial={{ opacity: 1 }}
+                    whileHover={{
+                        scale: 1.1,
+                        backgroundColor: '#7FE1CF', // Change background color on hover
+                        color: 'white', // Change text color on hover
+                    }}
+                    whileTap={{
+                        scale: 0.5,
+                        backgroundColor: '#7FE1CF', // Change background color on tap
+                        color: 'white', // Change text color on tap
+                    }}
+                    className='flexColStart button button1'
+                    >
+                       <FontAwesomeIcon className='f-icon' icon={faArrowRightLong} />
+                    </motion.button>
+                    </a>
+                 
+                   
                   <span className='flexCenter'>Buy Now !</span>
                   <span >Watch our <br/>video how <br/>it works</span>
                   <div className="icon-container flexCenter">

@@ -9,12 +9,20 @@ import {motion} from 'framer-motion'
 
 const Header = () => {
 
-  const [menuOpened , setMenueOpened]= useState(false)
+  const [menuOpened , setMenuOpened]= useState(false);
   const getMenuStyles = (menuOpened) =>{
     if(document.documentElement.clientWidth <= 800){
-      return { right: !menuOpened && "-100%" };
+      return {right : !menuOpened  && "-100%"  };
     }
   }
+  const handleMenuToggle = () => {
+    setMenuOpened((prev) => !prev);
+  };
+
+  const closeMenu = () => {
+    setMenuOpened(false);
+  };
+
   return (
     <section className="h-wrapper">
     
@@ -23,14 +31,14 @@ const Header = () => {
               <a href="/">
               <img  src={meroLogo} alt="l" className='logo'/>
               </a>
-             
             </div>
             <OutsideClickHandler
-            onOutsideClick={()=>{setMenueOpened(false)}}>
-           <div className="flexCenter menu" style={getMenuStyles(menuOpened)}>
+            onOutsideClick={closeMenu}>
+           <div className="flexCenter menu" 
+              style={getMenuStyles(menuOpened)}>
               <div className="flexCenter middle-header">
                 <a href="/Products">Products</a>
-                <a href="Gallery">Gallery</a>
+                <a href="AboutUs">About Us</a>
                 <a href="Contact">Contact</a>
               </div>
               <div className="flexCenter right-header">
@@ -54,13 +62,10 @@ const Header = () => {
                      LOG IN
                     </motion.button>
                   </a>
-                  
-                      
-                  
               </div>
             </div>
             </OutsideClickHandler>
-          <div className="menu-icon" onClick={()=>setMenueOpened((prev)=>!prev)}>
+          <div className="menu-icon" onClick={handleMenuToggle}>
             <BiMenuAltRight size={30}/>
           </div>
         </div>
@@ -70,3 +75,5 @@ const Header = () => {
 }
 
 export default Header
+
+// !menuOpened  && 

@@ -2,9 +2,11 @@
     flex-direction: column;
 }
 .search-Bar{ 
+    display: flex;
     height: 200px;
 }
  .search-Bar .inputext{
+    flex: 2;
    margin-left: 100px;
     border-radius: 10px;
     height: 50%;
@@ -13,22 +15,30 @@
 }
 
 .button2{
+    flex: 1;
     opacity: 1!important;
     cursor: pointer;
-    height: 50%;
-    width: 15%;
+    height: 100%;
+    width: 40%;
     margin-right: 30px;
     margin-left: 30px;
     border-radius: 10px;
    
 }
+.buttonn{
+    flex :1;
+    height: 50%;
+    width: 100%;
+  }
 @media (max-width :768px){
     .search-Bar{
+        padding: 0;
+        height: 8rem;
         align-items: center;
     }
     .button2{
-        width: 50%;
-        margin-left: 0;
+        width: 100%;
+        margin-left: 10%;
         margin-right: 0;
     }
     .search-Bar .inputext{

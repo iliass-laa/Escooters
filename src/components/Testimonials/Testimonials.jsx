@@ -49,45 +49,12 @@ const Testimonials = () => {
         </div>
         
       </section>
-
-
-
-  //  <section className="Test-wrapper">
-  //   <div className="Test-container flexCenter innerWidth paddings">
-  //       <div className="title">
-  //           <span className="primaryText flexCenter"> Testimonials
-  //               {/* <img src={ceo1} alt="" sizes="" srcset="" /> */}
-  //           </span>
-  //       </div>
-  //       <div className="flexCenter paddings innerWidth card-container">
-  //         {
-  //           Test.map((test ,index)=>
-  //           (<Cards key={index } {...test}/>))
-  //         }
-  //       </div>
-        
-  //   </div>
-  //   <SliderButtons/>
-
-  //  </section>
   )
 }
 
 export default Testimonials
 
 
-// const Cards =({cmnt , name,ocupation,image}) =>{
-//   const starCount = 5;
-//   // Create an array with the length equal to starCount
-//   const stars = Array.from({ length: starCount }, (_, index) => (
-//     <FontAwesomeIcon key={index} icon={faStar} className="yellowStar" />
-//   ));
-//     return (
-//       <Swiper {...sliderSettings}>
-      
-//       </Swiper>
-//     )
-//   }
 const SliderButtons = ()=>{
   const swiper = useSwiper();
   return(

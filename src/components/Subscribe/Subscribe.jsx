@@ -12,6 +12,8 @@ const Subscribe = () => {
         </div>
         <div className="flexCenter innerWidth paddings search-Bar">
             <input className='inputext' type="email" placeholder='    Enter your Email.'/>
+            <a href="/SignUp" className='buttonn'>
+                     
                  <motion.button
                     initial={{ opacity: 1 }}
                     whileHover={{
@@ -25,9 +27,9 @@ const Subscribe = () => {
                         color: 'white', // Change text color on tap
                     }}
                     className='button2 button'
-                    >
-                     Subcribe
+                    >Subcribe
                     </motion.button>
+                    </a>
 
             {/* <button className='button2 button'  ></button> */}
         </div>

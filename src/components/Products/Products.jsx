@@ -40,7 +40,7 @@ const Product = () => {
     
     return (
         <section className="Product-wrapper">
-            <div className="Product-container flexCenter innerWidth paddings">
+            <div className="Product-container flexCenter  paddings">
                 {/* leftSide */}
                 <div className="left-Product flexCenter">
                     <button onClick={handlerPrev} className='button nav left'><FaChevronLeft /> </button>

@@ -52,6 +52,7 @@
     color: rgb(65, 159, 65);
 }
 .price2{
+    justify-content: center;
     color: red;
     text-decoration: line-through;
 }
@@ -101,6 +102,7 @@
     background-color: rgb(186, 69, 71);
     color: white;
 }
+
 .colors-name .W{
     background-color: white;
     color: rgba(66,68,75);
